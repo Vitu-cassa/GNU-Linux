@@ -2,15 +2,15 @@
 
 ---
 
-O diretório foi criado para praticaermos `Shell script`.<br>
-A proposta é lermos as `issues` e atendermos aos pedidos listados.<br>
-As seguintes praticas para commits, documentação e a marca nas issues podem, preferencialmente, seguirem as seguintes regras basicas:
+O diretório foi criado para praticar `Shell script`.<br>
+A proposta é ler o material e utilizar as `issues` para praticar/sugerir scripts e atender aos pedidos listados.<br>
+As seguintes práticas para commits, documentação e a marca nas issues podem, preferencialmente, seguir as seguintes regras:
 1. Os titulos das Issues devem ser consisos e diretos.
 2. Uma issue pode receber diversas sub tarefas.
 3. Uma issue não necessariamente deve ser resolvida completamente por uma pessoa, ou seja, em qualquer ordem e qualquer subtarefa, pode ser resolvida por um ou mais colaboradores do repositório.
 4. Os arquivos devem ser commitados na pasta `/linux/shell_script`.
-5. Os scripts devem conter um nome especifico da fução que realiza.<br>
-6. Não esperem que eu coloque todas as issues no estudo. Tiveram uma ideia, poder cadastrar como um objetivo o quanto antes.
+5. Os scripts devem conter um nome especifico da função que realiza.<br>
+6. Qualquer nova ideia pode ser sugerida e cadastrada numa issue.
 7. Sobre a formatação da issue, podem pedir alguma revisão que eu realizo. Mas encorajo-os a tentarem fazer por conta, não estamos preocupados sobre acertar um padrão logo no inicio, apenas queremos começar a utlizar melhor o github.
 
 **NOTA:** O menu issues fica na parte superior do repositorio.
@@ -25,8 +25,6 @@ Particularmente, gosto de cadastrar uma issue e, em seguia, em um comentario fix
 - [] Atribuir permissão ao arquivo e executar
 - [] Adicionar funcionalidade de limpar o terminal ao executar o comando.
 
-Issues, geralmente são agrupadas em objetivos ainda maiores, chamados de `millestone`. Portanto, a criação de um millestone é bastante util para verificarmos o andamento do projeto, já que o HitHub mostra as conclusões em barras nas respectivas abas.
-
+Issues, geralmente são agrupadas em objetivos ainda maiores, chamados de `milestone`. Portanto, a criação de um millestone é bastante útil para verificarmos o andamento do projeto, já que o GitHub mostra as conclusões em barras nas respectivas abas.
+Por hora, além da pratica de SHell Script, este repositório tem como objetivo, melhorar a interação com mais algumas ferramentas do GitHub.
 Este é apenas um guia inicial para iniciarmos os estudos, e não, necessariamente, deve ser seguido tão à risca, logo, qualquer sugestão para melhorarmos o projetinho, será bem vinda. <br>
-
-**LEMBREM-SE:** GS terá inicio oficial dia 4 de Novembro!
