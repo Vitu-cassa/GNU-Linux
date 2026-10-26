@@ -173,7 +173,7 @@ Declarar e consultar as variáveis de ambiente e locais declaradas, assim como v
 
 ---
 
-# Lidando com Argumentos e Comunicando-se com o Usuário
+# Lidando com Argumentos e se Comunicando com o Usuário
 
 # Argumentos
 
@@ -207,7 +207,7 @@ Existem também as `Variáveis Especiais de Controle`, que ajudam na manutençã
 | :---: | :--- |
 | `$#`| Armazena a quantidade total de argumentos passados (ignorando o `$0`) |
 | `$@` | Agrupamento de todos os argumentos passados |
-| `$*` em diante | Idem ao `$@`, porém, não recomendado quando os argumentos contém espaços |
+| `$*` | Idem ao `$@`, porém, não recomendado quando os argumentos contém espaços |
 
 # Saída: O comando `echo`
 Neste ponto, não deve ser novidade que o comando `echo` é o principal vetor de comunicação entre usuário e maquina. Qualquer resposta impressa no terminal, por qualquer comando, é realizado, provavelmente, pelo `echo`.
