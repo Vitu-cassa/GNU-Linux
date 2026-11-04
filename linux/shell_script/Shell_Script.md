@@ -1,8 +1,8 @@
 # Compreendendo o `shebang`
 ## SHEBANG
-De acordo com uma pesquisa rápida, o termo `shebang` vem da junção dos dois caracteres que antecedem a indicação do interpretador que será evocado. Ou seja, a contrasão de "#" (do inglês **_hash_**) e "!" (de uma giria inglesa **_bang_**).
+De acordo com uma pesquisa rápida, o termo `shebang` vem da junção dos dois caracteres que antecedem a indicação do interpretador que será evocado. Ou seja, a contração de "#" (do inglês **_hash_**) e "!" (de uma giria inglesa **_bang_**).
 Na criação de scripts, a primeira linha é utilizada para indicar qual interpretador daquele script será utilizado, por exemplo, se for um script em python (.py) será o interpretador `python`, caso seja um shell script (.sh) algum terminal do sistema que interprete a linguagem, como o `bash`.
-Portanto, se no script, conter o caminho do interpretador, podemos executar o script, sem explicitamente indicar o interpretador no comando, ou seja, o script é executado apenas com a evocação de seu nome (usualmente precedido de `./`).
+Portanto, se no script, contiver o caminho do interpretador, podemos executar o script, sem explicitamente indicar o interpretador no comando, ou seja, o script é executado apenas com a evocação de seu nome (usualmente precedido de `./`).
 
 **Sem shebang**
  > ```bash
@@ -20,11 +20,11 @@ Portanto, se no script, conter o caminho do interpretador, podemos executar o sc
 > ```
 O `shebang` pode ser declarado de duas formas no script:
 > ```txt
-> !#/usr/bin/<interpretador>
+> #!/usr/bin/<interpretador>
 > ```
 ou
 > ```txt
-> !#/usr/bin/env <interpretador>
+> #!/usr/bin/env <interpretador>
 > ```
 
 De forma resumida, o primeiro método procura o interpretador obrigatoriamente no diretório `\usr\bin`, enquanto o segundo utiliza um método de busca dinâmico, avaliando os `paths` declarados nas variáveis de ambiente do sistema, varrendo-o e procurando onde o interpretador esta instalado, através do mecanismo `env`. Este torna o script mais versátil quando for utilizado em diferentes sistemas.
